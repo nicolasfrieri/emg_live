@@ -1,0 +1,17 @@
+{
+  "folders": [{"path": "."}],
+  "settings": {
+    "python-envs.pythonProjects": [
+      {
+        "path": ".",
+        "envManager": "ms-python.python:system",
+        "packageManager": "ms-python.python:pip"
+      },
+      {
+        "path": "recordings/prueba2 pg_20261126_161647_265169",
+        "envManager": "ms-python.python:venv",
+        "packageManager": "ms-python.python:pip"
+      }
+    ]
+  }
+}

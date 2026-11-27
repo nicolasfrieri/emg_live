@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "EMG: Arduino R4 (2 canales)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["--channels", "2"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "EMG: demo sin Arduino",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["--demo"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
